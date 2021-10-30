@@ -1,0 +1,331 @@
+/**
+* Template Name: Bootslander - v3.0.0
+* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@import url('https://allfont.net/allfont.css?fonts=caviar-dreams');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url('Caviar_Dreams_Bold-webfont.eot');
+  src: url('Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Caviar_Dreams_Bold-webfont.woff2') format('woff2'),
+       url('Caviar_Dreams_Bold-webfont.woff') format('woff'),
+       url('Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+       url('Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html {
+  scroll-behavior: smooth!important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #444444;
+  overflow-x :hidden;
+}
+
+/* tes */
+.up-side {
+    background-color:lightgray;
+    /* display: inline; */
+}
+.second-box p{
+    color:silver;
+}
+.third-box p{
+    margin-left: 20px;
+    margin-top:35px;
+    color:silver;
+}
+.navbar-nav {
+    display: flex;
+    align-content: flex-end;
+    justify-content: right;
+    font-weight: bold;
+    margin-left: -22px;
+    width: 92%;
+}
+.left-navbar {
+    width: 44%;
+    position: relative;
+}
+.nav-item {
+    margin-left: 100px;
+    position: relative;
+    top:-50px;
+    list-style-type:none;
+    color: blue;
+}
+.left-navbar h1{
+     margin-left: 22px; 
+     top:22px;
+     font-weight: bold;
+     position: relative;
+}
+.navbar-nav span {
+    position: relative;
+    top:-53px;
+    left: 50px;
+    font-size: 24px;
+}
+.left-navbar p{
+    margin-left: 25px; 
+    top:22px;
+    position: relative;
+    color: red;
+}
+
+
+.box-content{
+    margin-left: 50px;
+}
+.first-box p {
+    color: silver;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.first-box-order p {
+    color: silver;
+    margin-top: 35px;
+    margin-left: 20px!important;
+    
+}
+.second-box p {
+    color: silver;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.first-box {
+    border-color: silver;
+    margin-bottom:50px;
+    
+}
+.first-box-login {
+    border-color: silver;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    
+    
+}
+.first-box-login p{
+     color:silver;
+    
+    
+}
+.square {
+   height: 250px;
+   width: 90%;
+    border: 3px solid silver;
+    margin-bottom:22px;
+}
+
+.success-left {
+    display:block;
+    margin-left:50px;
+    margin-top:50px;
+}
+.success-right {
+    display:block;
+    position:relative;
+    left:850px;
+    bottom:70px;
+}
+.success-details h1{
+    font-size:24px;
+    font-weight:unset;
+}
+.success-details {
+   margin-left:50px;
+   margin-bottom:500px;
+}
+.square-prepaid{
+    height: 100px;
+    width: 90%;
+     border: 3px solid silver;
+     margin-bottom:20px;
+ }
+ .square-login{
+    height: 100px;
+    width: 90%;
+     border: 3px solid silver;
+     margin-bottom:20px;
+ }
+ .lower-area p {
+     color: blue;
+     text-align: center;
+ }
+ .square-order{
+    height: 100px;
+    width: 90%;
+     border: 3px solid silver;
+     margin-bottom:20px;
+     margin-top:50px;
+     margin-left: 50px
+ }
+ .order-details {
+     margin-left: 50px;
+     /* border: 3px silver;
+     border-style: solid none; */
+ }
+ .row {
+    border: 1px silver;
+    border-style: solid none;
+    height: 90px;
+ }
+ .blue-button span{
+     font-weight: bold;
+ }
+ .order-details p{
+    display:inline-block;
+  
+}
+.order-details span{
+    display:inline-block;
+    text-align: center;
+    position: relative;
+    left:77px;
+}
+.order-sub span {
+    font-weight: bold;
+    margin-left: 50px;
+}
+ .square-order p{
+   color:silver;
+    margin-left: 50px;
+ }
+ .square-payment{
+    height: 100px;
+    width: 90%;
+     border: 3px solid silver;
+     margin-bottom:400px;
+ }
+ .first-box {
+     margin-bottom:50px;
+ }
+ .square-prepaid1{
+    height: 100px;
+    width: 70%;
+     border: 3px solid silver;
+     margin-bottom:200px;
+ }
+.square1{
+    height: 100px;
+    width: 90%;
+     border: 3px solid silver;
+     margin-bottom:400px;
+ }
+
+
+.title-login-register {
+    margin-bottom:50px ;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.title span {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+.blue-button {
+    background: blue;
+    color: white;
+    margin-left:220px;
+    width:500px;
+    margin-bottom:100px;
+    height:50px;
+  }
+  .blue-button-prepaid {
+    background: blue;
+    color: white;
+    margin-left:220px;
+    width:500px;
+    margin-top:500px;
+    height:50px;
+  }
+  .blue-button-login {
+    background: blue;
+    color: white;
+    margin-left:250px;
+    width:500px;
+    margin-bottom:50px;
+    height:50px;
+  }
+  .blue-button-order{
+    background: blue;
+    color: white;
+    width:150px;
+    margin-left: 870px;
+    position: relative;
+    top:-40px; 
+    height:50px;
+  }
+   .failed-button-order{
+    
+    color: gold;
+    width:150px;
+    margin-left: 920px;
+    position: relative;
+    top:-30px; 
+    height:50px;
+  }
+  .shipping-button-order{
+    
+    color: black;
+    width:150px;
+    margin-left: 900px;
+    position: relative;
+    top:-40px; 
+    height:50px;
+  }
+  .success-button-order{
+    
+    color: greenyellow;
+    width:150px;
+    margin-left: 920px;
+    position: relative;
+    top:-40px; 
+    height:50px;
+  }
+.left-navbar span{
+    margin-left: 55px; 
+     top: -13px;
+     color: silver;
+    position: relative;
+}
+.canceled-button-order{
+    
+    color: red;
+    width:150px;
+    margin-left: 920px;
+    position: relative;
+    top:-40px; 
+    height:50px;
+  }
+  .pagination {
+      display: flex;
+  }
+  .pagination li{
+    color: silver;
+    display: flex;
+    position: relative;
+    left: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
